@@ -1,0 +1,4 @@
+-m
+tinyllama-1.1b-chat-v0.3.Q2_K.gguf
+--host
+0.0.0.0

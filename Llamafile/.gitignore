@@ -1,0 +1,5 @@
+env.sh
+
+models/*
+cosmocc/*
+llamafile/*
