@@ -1,13 +1,14 @@
 # LLAMAFILE DOCKER GENERATOR
 
-Just my humgle effort to automate the generation of a Llamafile for anybody
+Just my humgle effort to automate the generation of a Llamafile for anybody.
 
 I've tested successfully:
-[orca-2-13b-alpaca-uncensored.gguf.q4_k_m.bin](https://huggingface.co/athirdpath/Orca-2-13b-Alpaca-Uncensored)
-[orca-2-13b-alpaca-uncensored.gguf.q8_0.bin](https://huggingface.co/athirdpath/Orca-2-13b-Alpaca-Uncensored)
-[tinyllama-1.1b-chat-v0.3.Q2_K.gguf](https://huggingface.co/TheBloke/TinyLlama-1.1B-Chat-v0.3-GGUF)
-[Wizard-Vicuna-7B-Uncensored.Q5_K_M.gguf](https://huggingface.co/TheBloke/Wizard-Vicuna-7B-Uncensored-GPTQ)
-[mixtral-8x7b-v0.1.Q4_K_M.gguf](https://huggingface.co/TheBloke/Mixtral-8x7B-v0.1-GGUF)
+
+- [orca-2-13b-alpaca-uncensored.gguf.q4_k_m.bin](https://huggingface.co/athirdpath/Orca-2-13b-Alpaca-Uncensored)
+- [orca-2-13b-alpaca-uncensored.gguf.q8_0.bin](https://huggingface.co/athirdpath/Orca-2-13b-Alpaca-Uncensored)
+- [tinyllama-1.1b-chat-v0.3.Q2_K.gguf](https://huggingface.co/TheBloke/TinyLlama-1.1B-Chat-v0.3-GGUF)
+- [Wizard-Vicuna-7B-Uncensored.Q5_K_M.gguf](https://huggingface.co/TheBloke/Wizard-Vicuna-7B-Uncensored-GPTQ)
+- [mixtral-8x7b-v0.1.Q4_K_M.gguf](https://huggingface.co/TheBloke/Mixtral-8x7B-v0.1-GGUF)
 
 All works very nicely (not all are quick models) and it is very easy to start building own project upon it.
 
