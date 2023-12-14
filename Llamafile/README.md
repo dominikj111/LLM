@@ -1,4 +1,4 @@
-# LLAMAFILE DOCKER GENERATOR
+# DOCKERIZED LLAMAFILE GENERATOR
 
 Just my humgle effort to automate the generation of a Llamafile for anybody.
 
