@@ -3,3 +3,8 @@ env.sh
 models/*
 cosmocc/*
 llamafile
+
+!output
+output/*
+
+!output/.args
