@@ -9,4 +9,7 @@ docker run \
     --volume $(pwd)/cosmocc:/root/cosmocc \
     --volume $(pwd)/output:/root/output \
     --rm llamafile \
-    /bin/bash -c "sh ./scripts/entrypoint.sh && llamafile -m ./models/tinyllama-1.1b-chat-v0.3.Q2_K.gguf -p $'What is the best way to build a robot?'"
+    /bin/bash -c "
+        sh ./scripts/entrypoint.sh && 
+        llamafile -m ./models/tinyllama-1.1b-chat-v0.3.Q2_K.gguf -p $'What is the best way to build a robot?'
+    "
