@@ -1,6 +1,6 @@
 # DOCKERIZED LLAMAFILE GENERATOR
 
-Simple way to run, serve and generate custom Llamafile.
+Simple way to run, serve and generate snigle executable Llamafile.
 
 Tested with these models:
 
