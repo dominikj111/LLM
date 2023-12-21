@@ -1,5 +1,19 @@
 #!/bin/bash
 
+help_text="The 'run.sh' allows to pass the initial prompt."
+help_flags=(
+    "-r, --prompt   Specify the initial promt for the model (default: What is the best way to build a robot?)"
+)
+
+. "$PWD/config.sh"
+
+if [ ! -n "${prompt+x}" ] || [ -z "$prompt" ]; then
+    prompt='What is the best way to build a robot?'
+fi
+
+bgreen echo "Going to run the model '$model_path' asking for '$prompt' ..."
+sleep 5
+
 docker run \
     --interactive \
     --tty \
@@ -11,5 +25,5 @@ docker run \
     --rm llamafile \
     /bin/bash -c "
         sh ./scripts/entrypoint.sh && 
-        llamafile -m ./models/tinyllama-1.1b-chat-v0.3.Q2_K.gguf -p $'What is the best way to build a robot?'
+        llamafile -m $model_path -p $'$prompt'
     "
