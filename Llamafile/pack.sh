@@ -8,7 +8,10 @@ help_flags=()
 bgreen echo "Going to package the model '$model_path' as a llamafile ..."
 sleep 5
 
-# Generate .args file
+# Remove previous .llamafile file
+rm -rf ./output/llava-server.llamafile
+
+# Generate/Override the .args file
 cat << EOF > "./output/.args"
 -m
 $mode_name
