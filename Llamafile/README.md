@@ -19,12 +19,12 @@ There is only **single requirement**, what is the Docker.
 
 - Firstly, create an `env.sh` file according to the `env_sample.sh` template.
 - Next you need to build a container by `sh build.sh` command (`bash build.sh` in case there is a "source not found" error).
-- To play with the basic model (tinyllama-1.1b-chat-v0.3.Q2_K.gguf), do `sh run.sh`, where the question is "What is the best way to build a robot?" set as default (see the help `sh run.sh --help`).
+- To play with the basic model (tinyllama-1.1b-chat-v0.3.Q2_K.gguf), do `sh run.sh`, where the question is "What is the best way to build a robot?" set as default (see the help `sh run.sh --help` for more details).
 - To generate single executable web server, do `sh pack.sh`.
 
 ## Serving the web application
 
-`sh serve.sh` and open the browser with `http://localhost:8080`.
+Do `sh serve.sh` and open the browser with `http://localhost:8080`.
 
 See the help `sh serve.sh --help` for more details.
 
