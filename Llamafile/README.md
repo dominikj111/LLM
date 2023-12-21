@@ -2,7 +2,7 @@
 
 Simple way to run, serve and generate custom Llamafile.
 
-Tested these models:
+Tested with these models:
 
 - [tinyllama-1.1b-chat-v0.3.Q2_K.gguf](https://huggingface.co/TheBloke/TinyLlama-1.1B-Chat-v0.3-GGUF)
 - [Wizard-Vicuna-7B-Uncensored.Q5_K_M.gguf](https://huggingface.co/TheBloke/Wizard-Vicuna-7B-Uncensored-GPTQ)
