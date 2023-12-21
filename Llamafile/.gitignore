@@ -8,3 +8,5 @@ llamafile
 output/*
 
 !output/.args
+
+**/llama.log
