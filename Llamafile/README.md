@@ -32,7 +32,7 @@ See the help `sh serve.sh --help` for more details.
 
 The other options to run, pack and serve the application are available. In doubt, do `sh run.sh --help`, `sh pack.sh --help` or `sh serve.sh --help`.
 
-To change the model, download the model and place into the `./models` folder and pass the name or relative path to it.
+To change the model, download the model, move into the `./models` folder and pass the name or relative path to it.
 
 ## Credits
 
