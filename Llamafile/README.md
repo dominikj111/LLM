@@ -34,6 +34,11 @@ The other options to run, pack and serve the application are available. In doubt
 
 To change the model, download the model, move into the `./models` folder and pass the name or relative path to it.
 
+## Some examples
+
+- `sh run.sh --model ./models/Wizard-Vicuna-7B-Uncensored.Q5_K_M.gguf --prompt "The receipt for a sponge cake: "`
+- `sh pack.sh -m ./models/orca-2-13b-alpaca-uncensored.gguf.q4_k_m.bin`
+
 ## Credits
 
 - [Mozilla-Ocho/llamafile](https://github.com/Mozilla-Ocho/llamafile)
