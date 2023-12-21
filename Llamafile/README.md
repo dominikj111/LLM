@@ -1,6 +1,6 @@
 # DOCKERIZED LLAMAFILE GENERATOR
 
-Simple way to run, serve and generate single executable system agnostic Llamafile.
+**Simple way** to run, serve and **generate single executable system agnostic Llamafile**.
 
 Tested with these models:
 
