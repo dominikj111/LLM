@@ -28,9 +28,12 @@ display_help() {
     echo "-h, --help     Display this help message"
     echo "-m, --model    Specify a model file to process (it has to be in ./models folder)"
 
-    for help_flag in "${help_flags[@]}"; do
-        echo "$help_flag"
-    done
+    if [ ${#help_flags[@]} -ne 0 ]; then
+        for help_flag in "${help_flags[@]}"; do
+            echo "$help_flag"
+        done
+
+    fi
 
     echo ""
 }
