@@ -25,7 +25,7 @@ fi
 
 if [ -z "$(ls -A ./models)" ]; then
     cd ./models
-    curl -L https://huggingface.co/TheBloke/TinyLlama-1.1B-Chat-v0.3-GGUF/resolve/main/tinyllama-1.1b-chat-v0.3.Q2_K.gguf -o tinyllama-1.1b-chat-v0.3.Q2_K.gguf
+    curl -L https://huggingface.co/TheBloke/TinyLlama-1.1B-Chat-v0.3-GGUF/resolve/main/tinyllama-1.1b-chat-v0.3.Q8_0.gguf -o tinyllama-1.1b-chat-v0.3.Q8_0.gguf
     cd ..
 fi
 
