@@ -14,7 +14,7 @@ rm -rf ./output/llava-server.llamafile
 # Generate/Override the .args file
 cat << EOF > "./output/.args"
 -m
-$mode_name
+$model_name
 --host
 0.0.0.0
 EOF

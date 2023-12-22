@@ -38,7 +38,7 @@ display_help() {
     echo ""
 }
 
-mode_name=""
+model_name=""
 model_path=""
 
 while [[ $# -gt 0 ]]; do
@@ -49,7 +49,7 @@ while [[ $# -gt 0 ]]; do
         exit 0
         ;;
     -m | --model)
-        mode_name=$(basename "$2")
+        model_name=$(basename "$2")
         shift
         shift
         ;;
@@ -98,13 +98,13 @@ while [[ $# -gt 0 ]]; do
     esac
 done
 
-if [ -z "$mode_name" ]; then
-    mode_name="tinyllama-1.1b-chat-v0.3.Q8_0.gguf"
+if [ -z "$model_name" ]; then
+    model_name="tinyllama-1.1b-chat-v0.3.Q8_0.gguf"
 fi
 
-model_path="./models/$mode_name"
+model_path="./models/$model_name"
 
-if [ ! -r "$model_path" ]; then
+if [ ! -r "$model_path" ] && [ "$model_name" != "tinyllama-1.1b-chat-v0.3.Q8_0.gguf" ]; then
     red echo "Model file not found: $model_path\n"
     display_help
     exit 1
