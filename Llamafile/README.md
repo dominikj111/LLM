@@ -37,6 +37,7 @@ To change the model, download the model, move into the `./models` folder and pas
 ## Some examples
 
 - `sh run.sh --model ./models/Wizard-Vicuna-7B-Uncensored.Q5_K_M.gguf --prompt "The receipt for a sponge cake: "`
+- `sh serve.sh --model ./models/Wizard-Vicuna-7B-Uncensored.Q5_K_M.gguf`
 - `sh pack.sh -m ./models/orca-2-13b-alpaca-uncensored.gguf.q4_k_m.bin`
 - `sh pack.sh --model orca-2-13b-alpaca-uncensored.gguf.q4_k_m.bin`
 
