@@ -31,17 +31,19 @@ See the help `sh serve.sh --help` for more details.
 
 ## Model change
 
-To change a model, download some into the `./dependencies/assets/models/Stable-diffusion` folder and switch in served web application.
+To change the model, download some into the `./dependencies/assets/models/Stable-diffusion` folder and switch in served web application.
 
 ## Some results
 
 Test prompt: "Apple tree surrounded by women's in the swimming costumes"
 
-![Generated image sample 3](./generated/00000-2687079802.png?raw=true "Image of the `sd_xl_base_1.0.safetensors`")
+<!-- markdownlint-disable MD033 -->
+<img src="./generated/00000-2687079802.png?raw=true" alt="Image of the `sd_xl_base_1.0.safetensors`" width="256" />
 
-![Generated image sample 1](./generated/00000-561566944.png?raw=true "Image of the `v1-5-pruned-emaonly.ckpt`")
+<img src="./generated/00000-561566944.png?raw=true" alt="Image of the `v1-5-pruned-emaonly.ckpt`" width="256" />
 
-![Generated image sample 2](./generated/00000-2010975715.png?raw=true "Image of the `model-epoch07-float32.ckpt `")
+<img src="./generated/00000-2010975715.png?raw=true" alt="Image of the `model-epoch07-float32.ckpt `" width="256" />
+<!-- markdownlint-enable MD033 -->
 
 ## Credits
 
