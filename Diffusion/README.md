@@ -38,11 +38,11 @@ To change the model, download some into the `./dependencies/assets/models/Stable
 Test prompt: "Apple tree surrounded by women's in the swimming costumes"
 
 <!-- markdownlint-disable MD033 -->
-<css>
+<style>
 .image-results {
     backkground-color: #ffaabb;
 }
-</css>
+</style>
 
 <div class="image-results">
     <div style="display: inline-block">
