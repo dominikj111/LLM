@@ -43,10 +43,10 @@ Test prompt: "Apple tree surrounded by women's in the swimming costumes"
     <img src="./generated/00000-561566944.png?raw=true" alt="Image of the `v1-5-pruned-emaonly.ckpt`" width="256" />
     <img src="./generated/00000-2010975715.png?raw=true" alt="Image of the `model-epoch07-float32.ckpt`" width="256" />
 </div>
-<div style="display: inline-block">
-    <div style="text-align: center; font-weight: 500; width: 256px;">sd_xl_base_1.0.safetensors</div>
-    <div style="text-align: center; font-weight: 500; width: 256px;">v1-5-pruned-emaonly.ckpt</div>
-    <div style="text-align: center; font-weight: 500; width: 256px;">model-epoch07-float32.ckpt</div>
+<div>
+    <span style="width: 256px">sd_xl_base_1.0.safetensors</span>
+    <span style="width: 256px">v1-5-pruned-emaonly.ckpt</span>
+    <span style="width: 256px">model-epoch07-float32.ckpt</span>
 </div>
 <!-- markdownlint-enable MD033 -->
 
