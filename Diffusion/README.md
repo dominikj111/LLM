@@ -39,17 +39,17 @@ Test prompt: "Apple tree surrounded by women's in the swimming costumes"
 
 <!-- markdownlint-disable MD033 -->
 <div>
-    <div style="display: inline-block">
+    <div style="display: inline">
         <img src="./generated/00000-2687079802.png?raw=true" alt="Image of the `sd_xl_base_1.0.safetensors`" width="256" />
-        <span style="text-align: center;">sd_xl_base_1.0.safetensors</span>
+        <spa style="text-align: center;">sd_xl_base_1.0.safetensors</spa>
     </div>
-    <div style="display: inline-block">
+    <div style="display: inline">
         <img src="./generated/00000-561566944.png?raw=true" alt="Image of the `v1-5-pruned-emaonly.ckpt`" width="256" />
-        <span style="text-align: center;">v1-5-pruned-emaonly.ckpt</span>
+        <spa style="text-align: center;">v1-5-pruned-emaonly.ckpt</spa>
     </div>
-    <div style="display: inline-block">
+    <div style="display: inline">
         <img src="./generated/00000-2010975715.png?raw=true" alt="Image of the `model-epoch07-float32.ckpt`" width="256" />
-        <span style="text-align: center;">model-epoch07-float32.ckpt</span>
+        <spa style="text-align: center;">model-epoch07-float32.ckpt</spa>
     </div>
 </div>
 <!-- markdownlint-enable MD033 -->
