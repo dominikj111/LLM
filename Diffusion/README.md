@@ -35,18 +35,17 @@ To change the model, download some into the `./dependencies/assets/models/Stable
 
 ## Some results
 
-Test prompt: "Apple tree surrounded by women's in the swimming costumes"
+Test prompt: "Apple tree surrounded by women's in the swimming costumes" for:
+
+- sd_xl_base_1.0.safetensors
+- v1-5-pruned-emaonly.ckpt
+- model-epoch07-float32.ckpt
 
 <!-- markdownlint-disable MD033 -->
 <div style="display: inline-block">
     <img src="./generated/00000-2687079802.png?raw=true" alt="Image of the `sd_xl_base_1.0.safetensors`" width="256" />
     <img src="./generated/00000-561566944.png?raw=true" alt="Image of the `v1-5-pruned-emaonly.ckpt`" width="256" />
     <img src="./generated/00000-2010975715.png?raw=true" alt="Image of the `model-epoch07-float32.ckpt`" width="256" />
-</div>
-<div>
-    <span style="min-width: 256px; max-width: 256px; border: 1px solid black;">sd_xl_base_1.0.safetensors</span>
-    <span style="min-width: 256px; max-width: 256px; border: 1px solid black;">v1-5-pruned-emaonly.ckpt</span>
-    <span style="min-width: 256px; max-width: 256px; border: 1px solid black;">model-epoch07-float32.ckpt</span>
 </div>
 <!-- markdownlint-enable MD033 -->
 
