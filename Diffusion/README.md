@@ -11,10 +11,11 @@ Tested with these models:
 
 There is only **single requirement**, what is the Docker.
 
+<!-- markdownlint-disable MD033 -->
 > [!IMPORTANT]
-> The test configuration was set with 7 CPUs and 16 GB RAM.
->
+> The test configuration was set with 7 CPUs and 16 GB RAM.<br >
 > There are running issues with lower configuration, but not sure the minimum.
+> <!-- markdownlint-enable MD033 -->
 
 ## How to use
 
