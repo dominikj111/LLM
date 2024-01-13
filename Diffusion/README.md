@@ -38,24 +38,18 @@ To change the model, download some into the `./dependencies/assets/models/Stable
 Test prompt: "Apple tree surrounded by women's in the swimming costumes"
 
 <!-- markdownlint-disable MD033 -->
-<style>
-.image-results {
-    backkground-color: #ffaabb;
-}
-</style>
-
-<div class="image-results">
+<div>
     <div style="display: inline-block">
         <img src="./generated/00000-2687079802.png?raw=true" alt="Image of the `sd_xl_base_1.0.safetensors`" width="256" />
-        <div style="text-align: center; font-weight: 500;">sd_xl_base_1.0.safetensors</div>
+        <span style="text-align: center;">sd_xl_base_1.0.safetensors</span>
     </div>
     <div style="display: inline-block">
         <img src="./generated/00000-561566944.png?raw=true" alt="Image of the `v1-5-pruned-emaonly.ckpt`" width="256" />
-        <div style="text-align: center; font-weight: 500;">v1-5-pruned-emaonly.ckpt</div>
+        <span style="text-align: center;">v1-5-pruned-emaonly.ckpt</span>
     </div>
     <div style="display: inline-block">
         <img src="./generated/00000-2010975715.png?raw=true" alt="Image of the `model-epoch07-float32.ckpt`" width="256" />
-        <div style="text-align: center; font-weight: 500;">model-epoch07-float32.ckpt</div>
+        <span style="text-align: center;">model-epoch07-float32.ckpt</span>
     </div>
 </div>
 <!-- markdownlint-enable MD033 -->
