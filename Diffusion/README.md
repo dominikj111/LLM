@@ -44,9 +44,9 @@ Test prompt: "Apple tree surrounded by women's in the swimming costumes"
     <img src="./generated/00000-2010975715.png?raw=true" alt="Image of the `model-epoch07-float32.ckpt`" width="256" />
 </div>
 <div>
-    <span style="width: 256px">sd_xl_base_1.0.safetensors</span>
-    <span style="width: 256px">v1-5-pruned-emaonly.ckpt</span>
-    <span style="width: 256px">model-epoch07-float32.ckpt</span>
+    <span style="min-width: 256px; max-width: 256px; border: 1px solid black;">sd_xl_base_1.0.safetensors</span>
+    <span style="min-width: 256px; max-width: 256px; border: 1px solid black;">v1-5-pruned-emaonly.ckpt</span>
+    <span style="min-width: 256px; max-width: 256px; border: 1px solid black;">model-epoch07-float32.ckpt</span>
 </div>
 <!-- markdownlint-enable MD033 -->
 
