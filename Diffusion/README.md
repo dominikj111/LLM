@@ -12,7 +12,8 @@ Tested with these models:
 There is only **single requirement**, what is the Docker.
 
 > [!IMPORTANT]
-> The test configuration was set with 7 CPUs and 16 GB RAM, there are running issues with lower configuration, but not sure the minimum.
+> The test configuration was set with 7 CPUs and 16 GB RAM.
+> There are running issues with lower configuration, but not sure the minimum.
 
 ## How to use
 
