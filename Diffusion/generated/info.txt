@@ -1,0 +1,25 @@
+LOG HEADERS
+prompt,seed,width,height,sampler,cfgs,steps,filename,negative_prompt
+
+7 CPUs
+16 GB RAM
+
+Test prompt: apple tree surrounded by women's in the swimming costumes
+
+____________________
+00000-2687079802.png
+
+sd_xl_base_1.0.safetensors
+apple tree surrounded by women's in the swimming costumes,2687079802,512,512,DPM++ 2M Karras,7,20,00000-2687079802.png
+
+____________________
+00000-561566944.png
+
+v1-5-pruned-emaonly.ckpt
+apple tree surrounded by women's in the swimming costumes,561566944,512,512,DPM++ 2M Karras,7,20,00000-561566944.png
+
+____________________
+00000-2010975715.png
+
+model-epoch07-float32.ckpt 
+apple tree surrounded by women's in the swimming costumes,2010975715,512,512,DPM++ 2M Karras,7,20,00000-2010975715.png
