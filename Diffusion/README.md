@@ -39,9 +39,18 @@ Test prompt: "Apple tree surrounded by women's in the swimming costumes"
 
 <!-- markdownlint-disable MD033 -->
 <div>
-    <img src="./generated/00000-2687079802.png?raw=true" alt="Image of the `sd_xl_base_1.0.safetensors`" width="256" />
-    <img src="./generated/00000-561566944.png?raw=true" alt="Image of the `v1-5-pruned-emaonly.ckpt`" width="256" />
-    <img src="./generated/00000-2010975715.png?raw=true" alt="Image of the `model-epoch07-float32.ckpt `" width="256" />
+    <div style="display: inline-block">
+        <img src="./generated/00000-2687079802.png?raw=true" alt="Image of the `sd_xl_base_1.0.safetensors`" width="256" />
+        <div style="text-align: center">Image of the `sd_xl_base_1.0.safetensors`</div>
+    </div>
+    <div style="display: inline-block">
+        <img src="./generated/00000-561566944.png?raw=true" alt="Image of the `v1-5-pruned-emaonly.ckpt`" width="256" />
+        <div style="text-align: center">Image of the `v1-5-pruned-emaonly.ckpt`</div>
+    </div>
+    <div style="display: inline-block">
+        <img src="./generated/00000-2010975715.png?raw=true" alt="Image of the `model-epoch07-float32.ckpt`" width="256" />
+        <div style="text-align: center">Image of the `model-epoch07-float32.ckpt`</div>
+    </div>
 </div>
 <!-- markdownlint-enable MD033 -->
 
