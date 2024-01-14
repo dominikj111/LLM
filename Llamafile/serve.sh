@@ -38,5 +38,5 @@ docker run \
     --rm llamafile \
     /bin/bash -c "
         sh ./scripts/entrypoint.sh && 
-        llamafile-server --host 0.0.0.0 -m $model_path
+        llamafile --host 0.0.0.0 -m $model_path
     "
