@@ -5,4 +5,4 @@ cosmocc
 output
 llamafile
 
-**/llama.log
+**/*.log
