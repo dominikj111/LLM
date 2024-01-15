@@ -13,7 +13,8 @@ model="tinyllama-1.1b-chat-v0.3.Q8_0.gguf"
 
 . "$PWD/config.sh"
 
-model_path="./models/$(basename "$model")"
+model="$(basename "$model")"
+model_path="./models/$model"
 
 if [ ! -r "$model_path" ] && [ "$model" != "tinyllama-1.1b-chat-v0.3.Q8_0.gguf" ]; then
     red echo "Model file not found: $model_path\n"
@@ -34,6 +35,7 @@ $model
 --server
 --host
 0.0.0.0
+...
 EOF
 
 docker run \
