@@ -1,0 +1,7 @@
+documents/*
+!documents/*.ipynb
+
+install/*
+!install/entrypoint.sh
+
+env.sh
