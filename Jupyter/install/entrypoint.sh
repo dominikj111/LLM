@@ -46,13 +46,17 @@ if ! which conda; then
                     # Miniconda 3 activation
                     echo ". /opt/miniconda3/etc/profile.d/conda.sh" >>/root/.bashrc
                     echo "conda activate base" >>/root/.bashrc
+                    # Make pip installations work in Jupyter
+                    echo 'export PYTHONPATH="${PYTHONPATH:+${PYTHONPATH}:}/opt/miniconda3/lib/python3.*/site-packages"' >>/root/.bashrc
                 )
             fi
         fi
         # shellcheck disable=SC1091
         . /root/.bashrc
         # Jupyter, JupyterLab installation
-        conda install -c conda-forge jupyter jupyterlab -y
+        conda install -c conda-forge jupyter jupyterlab ipykernel nb_conda_kernels -y
+        # Register the conda environment with Jupyter
+        python -m ipykernel install --name base --display-name "Python (base)" --user
     )
 fi
 

@@ -31,7 +31,7 @@ RUN update-locale
 #################################
 
 RUN apt-get install -y neovim sudo curl wget git make coreutils unzip htop
-RUN apt-get install -y python3 python3-pip python3-venv
+RUN apt-get install -y python3 python3-pip python3-venv python3-dev build-essential
 
 RUN git config --global user.email "${GITEMAIL}"
 RUN git config --global user.name "${GITNAME}"
